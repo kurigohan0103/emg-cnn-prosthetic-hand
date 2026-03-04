@@ -2,8 +2,6 @@
 
 Real-time prosthetic hand control system using CNN classification of surface EMG signals.
 
-CNN（畳み込みニューラルネットワーク）による表面筋電位（EMG）信号の分類と、リアルタイムアシスト装置制御システム。
-
 ## 研究概要
 
 Myo Armbandから取得した8チャンネルのEMG信号をCNNで6クラスに分類し、分類結果に基づいてモーターをリアルタイムに制御するシステムを構築した。モデルの学習はPC上で行い、学習済みモデルをRaspberry Pi 5に転送してリアルタイム推論を実行する。
