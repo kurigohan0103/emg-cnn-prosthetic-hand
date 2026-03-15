@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Motor_Driver_Custom")(type "KiCad")(uri "/Users/ayako/Downloads/Motor_Driver_Custom.kicad_sym")(options "")(descr ""))
+  (lib (name "Raspberry_Pi_5_GPIO")(type "KiCad")(uri "/Users/ayako/Downloads/Raspberry_Pi_5_GPIO.kicad_sym")(options "")(descr ""))
+)

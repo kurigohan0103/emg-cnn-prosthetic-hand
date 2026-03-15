@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Trained model weights
+*.pth
+*.pt
+*.onnx
+
+# Experiment data (large files / contains subject info)
+# Note: training/data/ (source code) is NOT excluded
+/data/
+training/results/
+training/models/saved_models/
+*.npy
+*.csv
+
+# Logs
+logs/
+*.log
+
+# Benchmark / debug artifacts
+bench/
+models_bench/
+graph/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# KiCad
+*-backups/
+*.kicad_bak
+*-cache.lib
+*-rescue.lib
+fp-info-cache
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Old project directories (kept as backup)
+project_2025/
+RaspberryPi_myoelectric/
